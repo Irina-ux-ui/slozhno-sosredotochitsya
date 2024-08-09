@@ -83,14 +83,13 @@
 }
 
 .header__theme-menu-button:focus {
-  border: none;
-  border-bottom: 1px solid var(--bt-color, #ff0070);
-  margin: 0;
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
   border: none;
   border-bottom: 1px solid rgb(255, 242, 0);
+  border-bottom: 1px solid var(--bt-color, #ff0070);
   margin: 0;
 }
 
